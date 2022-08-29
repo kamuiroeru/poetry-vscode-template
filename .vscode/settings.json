@@ -1,0 +1,15 @@
+{
+  // [flake8、black、isort、mypyをVS Code上で使用する](https://kamatimaru.hatenablog.com/entry/2020/05/04/224543)
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Enabled": true,
+  "python.formatting.provider": "black",
+  "python.linting.mypyEnabled": true,
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      // isort が動くように設定する
+      "source.organizeImports": true
+    }
+  }
+}
